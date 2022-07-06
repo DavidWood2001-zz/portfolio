@@ -1,11 +1,21 @@
 <!doctype html>
 <html>
 <head>
-		<meta charset="UTF-8">
+	<meta charset="UTF-8">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="/css/styles.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Space+Mono&display=swap" rel="stylesheet">
+	<script> 
+		$(function(){
+			$("#header").load("navbar.html"); $("#footer").load("footer.html"); 
+		});
+	</script>
 </head>
 <body>
-	<object data="navbar.html"></object>
+	<div id="header"></div>
 	<h1>About</h1>
+	<div id="footer"></div>
 </body>
 </html>
